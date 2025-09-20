@@ -21,7 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-"""
+```
 from http.server import HTTPServer,BaseHTTPRequestHandler
 content ='''
 <!DOCTYPE html>
@@ -94,7 +94,7 @@ print("This is my webserver")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-"""
+```
 # OUTPUT:
 ![alt text](<Screenshot 2025-09-19 205935.png>)
 ![alt text](<Screenshot 2025-09-19 210035.png>)
